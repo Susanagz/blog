@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Información de Alimentos</h1>
-    <a href="/alimentos/create">Crear nueva grabacion</a>
-    
+    <a href="/alimentos/create">Crear nuevo Alimento</a>
+
     <!--<a href="/alimento/{{ $alimento->id}}/edit">Editar</a>-->
     <br>
     <a href="{{ route('alimento.edit',[$alimento->id]) }}">Editar Alimento</a>

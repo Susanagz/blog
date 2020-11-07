@@ -8,7 +8,7 @@
 <body>
     <h1>Listado de Bebidas</h1>
     <a href="/bebida/create">Registrar nueva Bebida</a>
-    
+
     <table>
         <tr>
             <th>ID</th>
@@ -19,8 +19,8 @@
         @foreach ($bebidas as $beb)
             <tr>
                 <td>{{ $beb->id }}</td>
-                <td><a href="/bebida/{{$beb->id}}">{{ $beb->nombre }}</a></td>
-                <td><a href="/bebida/{{$beb->id}}">{{ $beb->precio }}</a></td>
+                <td><a href="/alimento/{{$ali->id}}">{{ $beb->nombre }}</a></td>
+                <td><a href="/alimento/{{$ali->id}}">{{ $beb->precio }}</a></td>
             </tr>
         @endforeach
 

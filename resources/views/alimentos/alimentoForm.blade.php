@@ -34,7 +34,7 @@
         <input type="text" name="precio" value="{{ old('precio') ?? $alimento->precio ??''}}"><br>
 
 
-        <button type="submit">Enviar</button>
+        <button class="btn btn-success" type="submit">Enviar</button>
     </form>
 
 </body>
